@@ -1,0 +1,15 @@
+<ul id="login-container">
+	<li>
+		<input type="text" id="login-email" placeholder="Username" ng-model="loginUser.username" />
+	</li>
+	<li>
+		<input type="password" id="login-password" placeholder="Password" ng-model="loginUser.password" />
+	</li>
+	<li>
+		<input type="button" id="login-button" value="Log In" ng-click="authenticateUser()" />
+	</li>
+	<li>
+		<input type="checkbox" ng-model="stayLoggedIn" />
+		Remember me
+	</li>
+</ul>
